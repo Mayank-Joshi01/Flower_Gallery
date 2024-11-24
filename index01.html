@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        header{
+            height:8vh;
+            background: red ;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .Container{
+            height:87vh;
+         background: aqua;
+        }
+        footer{
+            height:5vh;
+            background: yellow;
+                }
+
+        .section{
+            width:300px;
+            height: 300px;
+            border:5px solid black;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 10px 20px 10px 20px;
+        }
+        .nav-links{
+            display: inline-block;
+            margin: 0px 10px 0px 10px;
+        }
+        ul{text-align: center;
+        }
+        h1{
+            text-align:center;
+        }
+        .footer-text{
+            text-align: center;
+            line-height: 5vh;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header >
+        <h1>FLOWER GALLERY</h1>
+<ul>
+    <li class="nav-links">Home</li>
+    <li class="nav-links">About</li>
+    <li class="nav-links">Contact</li>
+</ul>
+    </header>
+    <div class="Container">
+<span class="section"><img src="IRIS.jpeg" alt="" height="280px" width="300px"><p class="img-title">IRIIS  <a href="./IRIS.jpeg" download="IRIS.jpeg"><i class="fa fa-download" style="font-size:18px"></i></a></p></span>
+<span class="section"><img src="LOTUS.jpg" alt="" height="280px" width="300px"><p class="img-title">LOTUS  <a href="./LOTUS.jpg" download="LOTUS.jpg"><i class="fa fa-download" style="font-size:18px"></i></a></p></span>
+<span class="section"><img src="MARIGOLD.webp" alt="" height="280px" width="300px"><p class="img-title">MARIGOLD <a href="./MARIGOLD.webp" download="MARIGOLD.webp"><i class="fa fa-download" style="font-size:18px"></i></a></p></span>
+<span class="section"><img src="ROSE.webp" alt="" height="280px" width="300px"><p class="img-title">ROSE <a href="./ROSE.webp" download="ROSE.webp"><i class="fa fa-download" style="font-size:18px"></i></a></p></span>
+<span class="section"><img src="SUNFLOWER.jpeg" alt="" height="280px" width="300px"><p class="img-title">SUNFLOWER <a href="./SUNFLOWER.jpeg" download="SUNFLOWER.jpeg"><i class="fa fa-download" style="font-size:18px"></i></a></p></span>
+<span class="section"><img src="WATER_LILY.jpeg" alt="" height="280px" width="300px"><p class="img-title">WATER LILY <a href="./WATER_LILY.jpeg" download="WATER_LILY.jpeg"><i class="fa fa-download" style="font-size:18px"></i></a></p></span>
+<span class="section"><img src="DAISY.jpeg" alt="" height="280px" width="300px"><p class="img-title">DAISY <a href="./DAISY.jpeg" download="DAISY.jpeg"><i class="fa fa-download" style="font-size:18px"></i></a></p></span>
+<span class="section"><img src="ORCHID.jpeg" alt="" height="280px" width="300px"><p class="img-title">ORCHID <a href="./ORCHID.jpeg" download="ORCHID.jpeg"><i class="fa fa-download" style="font-size:18px"></i></a></p></span>
+    </div>
+    <footer>
+<p class="footer-text">All rights are reserved &copy</p>
+    </footer>
+</body>
+</html> 
